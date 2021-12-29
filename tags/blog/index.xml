@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sanfertic</title>
-    <link>https://sanfertic.github.io/</link>
-    <description>Recent content on Sanfertic</description>
+    <title>Blog on Sanfertic</title>
+    <link>https://sanfertic.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Sanfertic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Oct 2021 01:18:05 +0200</lastBuildDate><atom:link href="https://sanfertic.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 01:18:05 +0200</lastBuildDate><atom:link href="https://sanfertic.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Este es el segundo post</title>
       <link>https://sanfertic.github.io/posts/segundopost/</link>
@@ -29,15 +29,6 @@ OLD: Crear las carpetas C:\Hugo  c:\Hugo\bin Ir a https://github.com/gohugoio
 Añadir a la variable de entorno PATH para poder ejecutar Hugo desde cualquier ubicación. C:\ProgramData\chocolatey\lib\hugo-extended\tools Desde el terminal crear el primer proyecto de Hugo: hugo new site sanfertic_blog
 Nos crea lo siguiente:
 Archetypes: metadatos de tus datos Content: Contenido de la web va a estar aquí Data: puede hacer de base de datos de tu web.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://sanfertic.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sanfertic.github.io/about/</guid>
-      <description>Kiko Labiano Rubén Astrain Iker Macaya </description>
     </item>
     
   </channel>

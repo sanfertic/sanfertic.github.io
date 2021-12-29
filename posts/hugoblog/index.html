@@ -13,6 +13,12 @@
     <a href="https://sanfertic.github.io/" class="title">Sanfertic</a>
   
   
+    <nav>
+    
+      <a href="/about/">About</a>
+    
+    </nav>
+  
 </header>
 
 <article>
@@ -20,7 +26,67 @@
     <h1>Soy el primer post</h1>
     <time datetime="2021-10-09T00:43:28&#43;02:00">October 09, 2021</time>
   </header>
-  <p>Soy el primer post</p>
+  <p>Instalar Hugo:
+NEW:
+Usar chocolatey</p>
+<p>Ver versión hugo</p>
+<p>OLD:
+Crear las carpetas C:\Hugo  c:\Hugo\bin
+Ir a <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
+Descargar: <a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
+Extraer en: C:\Hugo\bin
+Ver versión de Hugo: Hugo versión en cmd</p>
+<p>Añadir a la variable de entorno PATH para poder ejecutar Hugo desde cualquier ubicación.
+C:\ProgramData\chocolatey\lib\hugo-extended\tools
+Desde el terminal crear el primer proyecto de Hugo:
+hugo new site sanfertic_blog</p>
+<p>Nos crea lo siguiente:</p>
+<p>Archetypes: metadatos de tus datos
+Content: Contenido de la web va a estar aquí
+Data: puede hacer de base de datos de tu web. Siendo una web estatica puede que no se use. Si usas algún json por ejemplo puede estar aquí.
+Layouts: puedes definer layout complejos para la web: header, footer, etc etc
+Static: donde se van a alojar todos los elementos estáticos de la web: imagenes, ficheros css, javascript, etc
+Themes: Hugo es bastante sencillo de utilizar y nos proporciona un montón de temas por defecto que nos podemos descargar desde su web e importar en nuestro proyecto.
+<a href="https://themes.gohugo.io/tags/blog/">https://themes.gohugo.io/tags/blog/</a>
+Config.toml el fichero de configuración de nuestra web.</p>
+<p>Temas:
+Cada tema de Hugo tiene su repositorio en github: <a href="https://github.com/niklasbuschmann/contrast-hugo">https://github.com/niklasbuschmann/contrast-hugo</a></p>
+<p>Theme.toml fichero de configuración del tema</p>
+<p>Añadimos el tema al fichero de configuración:
+Modificaciones en el fichero: config.toml
+La url donde está el proyecto y el título.</p>
+<p>Para comprobar que funciona lo que vamos haciendo levantamos el server de Hugo:
+Hugo server</p>
+<p>Localhost:1313</p>
+<p>Nuevo post:
+Hugo new posts/hugoBlog.md</p>
+<p>Agregamos un submodulo desde el blog al repositorio de sanfertic.github.pages:</p>
+<p>Generar contenido estatico:
+Hugo -t nombre del tema
+Hugo -t contrast-hugo
+Stage, commit, push origin main</p>
+<p>Para publicar los ficheros con draft: -D
+Los ficheros en draft están preparados para publicar.</p>
+<p>Después ir a public, add, staage, commit, push</p>
+<p>La plantilla que se usa para generar un nuevo fichero la tenemos en la carpeta archetypes:</p>
+<p>Cuando generamos un nuevo fichero, nos lo genera así:</p>
+<p>Podemos crear nuevos archetypes, como posts.md y este se ejecutará siempre que creemos un fichero dentro de la carpeta posts.
+Shortcodes:
+Plantillas de html que podemos incluir en nuestros posts.
+shortcode-name param1 Entre { y &lt;&gt;}
+youtube 2xkNJL4gJ9E&gt; ID of the youtube video</p>
+<p>Taxonomies:
+Agrupar contenido. Para ello existen tags y categories. (etiquetas y categorías.)</p>
+<p>Añadiendo el array [taxonomies] tag = “tags” etc a config.toml el tema debería cogerlas. Pero en este caso no lo hace. Si queremos que haga una página automática con las tags que metamos, lo tenemos que revisar.
+HTML Templates:
+Las plantillas las tenemos en el tema: layouts:</p>
+<p>Se pueden generar plantillas en nuestro proyecto, creando la misma estructura: layouts: _default
+Hay tres tipos básicos de plantillas: list, single page y home page.
+También tenemos las plantillas de secciones, con ellas podemos poner diferentes plantillas en cada una de nuestras carpetas de artículos. (En nuestro caso va a ser única, por lo menos al principio.)
+Data:
+Donde alojamos todos los datos: json, yml, toml. Se puede acceder a su información.
+Gestión imágenes:
+Nueva carpeta assets: images</p>
 
 </article>
 

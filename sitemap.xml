@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sanfertic.github.io/tags/blog/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/categories/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
     <loc>https://sanfertic.github.io/posts/segundopost/</loc>
     <lastmod>2021-10-09T01:18:05+02:00</lastmod>
   </url><url>
@@ -11,11 +17,27 @@
     <loc>https://sanfertic.github.io/</loc>
     <lastmod>2021-10-09T01:18:05+02:00</lastmod>
   </url><url>
+    <loc>https://sanfertic.github.io/tags/secondpost/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/tags/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/tags/tech/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/categories/tech/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/tags/youtubevideo/</loc>
+    <lastmod>2021-10-09T01:18:05+02:00</lastmod>
+  </url><url>
+    <loc>https://sanfertic.github.io/tags/firstpost/</loc>
+    <lastmod>2021-10-09T00:43:28+02:00</lastmod>
+  </url><url>
     <loc>https://sanfertic.github.io/posts/hugoblog/</loc>
     <lastmod>2021-10-09T00:43:28+02:00</lastmod>
   </url><url>
-    <loc>https://sanfertic.github.io/categories/</loc>
-  </url><url>
-    <loc>https://sanfertic.github.io/tags/</loc>
+    <loc>https://sanfertic.github.io/about/</loc>
   </url>
 </urlset>
