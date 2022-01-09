@@ -6,29 +6,15 @@
     <description>Recent content in Tech on Sanfertic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Oct 2021 01:18:05 +0200</lastBuildDate><atom:link href="https://sanfertic.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 00:43:28 +0200</lastBuildDate><atom:link href="https://sanfertic.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Este es el segundo post</title>
-      <link>https://sanfertic.github.io/posts/segundopost/</link>
-      <pubDate>Sat, 09 Oct 2021 01:18:05 +0200</pubDate>
+      <title>Sanfertic</title>
+      <link>https://sanfertic.github.io/posts/presentacion/</link>
+      <pubDate>Sun, 09 Jan 2022 00:43:28 +0200</pubDate>
       
-      <guid>https://sanfertic.github.io/posts/segundopost/</guid>
-      <description>Soy el segundo post
-  </description>
-    </item>
-    
-    <item>
-      <title>Soy el primer post</title>
-      <link>https://sanfertic.github.io/posts/hugoblog/</link>
-      <pubDate>Sat, 09 Oct 2021 00:43:28 +0200</pubDate>
-      
-      <guid>https://sanfertic.github.io/posts/hugoblog/</guid>
-      <description>Instalar Hugo: NEW: Usar chocolatey
-Ver versión hugo
-OLD: Crear las carpetas C:\Hugo  c:\Hugo\bin Ir a https://github.com/gohugoio/hugo/releases Descargar: https://github.com/gohugoio/hugo/releases Extraer en: C:\Hugo\bin Ver versión de Hugo: Hugo versión en cmd
-Añadir a la variable de entorno PATH para poder ejecutar Hugo desde cualquier ubicación. C:\ProgramData\chocolatey\lib\hugo-extended\tools Desde el terminal crear el primer proyecto de Hugo: hugo new site sanfertic_blog
-Nos crea lo siguiente:
-Archetypes: metadatos de tus datos Content: Contenido de la web va a estar aquí Data: puede hacer de base de datos de tu web.</description>
+      <guid>https://sanfertic.github.io/posts/presentacion/</guid>
+      <description>¿Que es? Sanfertic es un blog y repositorio de software donde vamos a publicar nuestros proyectos, inquietudes e ideas sobre el mundo del desarrollo de software, diferentes tecnologías y metodologías.
+¿Quienes somos? Somos 3 amigos, Kiko, Rubén e Iker, con experiencia en diferentes ambitos en el sector TIC, donde hemos compartido empresa durante bastantes años pero nunca hemos trabajado juntos. Así que decidimos lanzar este proyecto juntos para aprender los unos de los otros, exponer nuestras ideas y debatir sobre tecnología.</description>
     </item>
     
   </channel>
